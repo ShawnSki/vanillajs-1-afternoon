@@ -66,3 +66,11 @@ function play(idBoxer) {
      }
 }
 
+// function resetGame(idBoxer2) {
+//  const clickedArea2 = document.getElementById(idBoxer2);
+//     for (let i = 0; i < 8; i++){
+//         clickedArea2.innerText = " ";
+//     }
+// }
+
+// console.log(resetGame);
