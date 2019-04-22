@@ -51,8 +51,18 @@ function play(idBoxer) {
         window.alert(gameProg[idBoxer] + " is the winner!");
      }
 
-     else if (gameProg.length === 9) {
-        window.alert("That was a Cats game!");
-     }
+    //  else if (gameProg.length === 9) {
+    //     window.alert("That was a Cats game!");
+    //  }
 
+     let fullBoard = true;
+     for (let i = 0; i <= 8; i++) {
+        if (gameProg[i] === undefined) {
+            fullBoard = false;
+         } 
+     }
+     if (fullBoard === true) {
+            window.alert("That was a Cats game!");
+     }
 }
+
